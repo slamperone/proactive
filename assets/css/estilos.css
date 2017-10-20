@@ -604,12 +604,12 @@ form.suscribe .btn:hover {
 	transition: all 0.4s ease-in-out;
 }
 
-.ch-img-1 {
-	background-image: url(../img/img-course-1.jpg);
+.giovanni {
+	background-image: url(../img/giovanni-urzua.jpg);
 }
 
-.ch-img-2 {
-	background-image: url(../img/img-course-2.jpg);
+.joaquin {
+	background-image: url(../img/joaquin-gordillo.jpg);
 }
 
 .ch-img-3 {
@@ -896,11 +896,19 @@ float: left;
 font-size: 2.2em;}
 
 .spaceNos {
-	background: #66CCFF url("../img/bg.png") repeat 0 0;
+	background: #66CCFF url("../img/bg.png") repeat center 0;
 	border-bottom: 1px solid #ededed;
 	border-top: 1px solid #ededed;
 	padding: 30px 0;
 }
 .spaceNos p{
 	color: #FFF;3
+}
+
+.valoresList{
+	font-size: 1.5em;
+}
+
+.valoresList li{
+	margin:20px;
 }

@@ -58,7 +58,7 @@
     </div>
 </section>
 <section>
-	<div class="containergeneric animated fadeInUp delay5">
+	<div class="container generic animated fadeInUp delay5">
 
 
           <div class="row">
@@ -74,18 +74,18 @@
           <div class="row">
           	<div class="col-md-4"></div>
 
-            <div class="col-md-6">
+            <div class="col-xs-9 col-sm-5 col-md-6">
                <h3>Valores</h3>
-               <ol>
-               	<li></li>
-               	<li></li>
-               	<li></li>
-               	<li></li>
-               	<li></li>
-               </ol>
+               <ul class="valoresList">
+               	<li class="icon-right-open-mini">Honestidad</li>
+               	<li class="icon-right-open-mini">Compromiso</li>
+               	<li class="icon-right-open-mini">Integración</li>
+               	<li class="icon-right-open-mini">Superación</li>
+               	<li class="icon-right-open-mini">Servicio</li>
+               </ul>
             </div>
 
-            <div class="col-md-2">
+            <div class="col-xs-3 col-sm-3 col-md-2">
             	<img src="<?= base_url('assets/img/humano-realizado.png'); ?>" alt="persona alcanzando el éxito" class="figure">
             </div>
 
