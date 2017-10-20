@@ -24,7 +24,7 @@
                 <p><a>Giovanni <br />Urzúa Gómez</a></p>
                 </div>
                 </div>
-                <p>Director de Planificación y Proyectos</p>
+                <b>Director de Planificación y Proyectos</b>
                 <ul>
                   <li><i class="glyphicon glyphicon-ok"></i> Licenciado en Psicología.</li>
                   <li><i class="glyphicon glyphicon-ok"></i> Terapeuta transpersonal con Maestría en Terapia Breve y especialidad en Desarrollo Humano y Dirección Integral de Empresas.</li>
@@ -47,7 +47,7 @@
                 <p><a>Joaquín<br />Gordillo </a></p>
                 </div>
                 </div>
-                <p>Marketing y Estrategia</p>
+                <b>Marketing y Estrategia</b>
                 <ul>
                   <li><i class="glyphicon glyphicon-ok"></i> Licenciado en Nutrición y Ciencia de los Alimentos. UIA</li>
                   <li><i class="glyphicon glyphicon-ok"></i> Especialidad en Fisiología, ENCB, IPN</li>
