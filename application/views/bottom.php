@@ -12,8 +12,6 @@
                   <li><a href="#"><i class="icon-dribbble"></i></a></li>
                   <li><a href="#"><i class="icon-vimeo"></i></a></li>
                   <li><a href="#"><i class="icon-behance"></i></a></li-->
-                  <li><a href="#"><i class="icon-twitter-circled"></i></a></li>
-                  <li><a href="#"><i class="icon-facebook-circled"></i></a>
                 </ul>
               </div>
             </div>
@@ -42,7 +40,6 @@
      );
     foreach ($scripts as $file) {
       echo '<script src="'.base_url('assets/js/'.$file).'"></script>';
-      # code...
     }
      ?>
     <!--[if lt IE 8]><script src="js/respond.min.js"></script><![endif]-->
