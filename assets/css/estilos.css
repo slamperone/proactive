@@ -863,4 +863,34 @@ footer {
 	opacity: 0.7;
 }
 
+.casiFooter{
+	min-height: 200px;
+	background: #ef5b2b;
+}
+.casiFooter h2{
+	color: #FFF!important;
+}
+.casiFooter p{
+	color: #FFF!important;
+	font-size: 10px;
+}
+.casiFooter ol{
+	list-style: none;
+	padding: 0;
+}
+.casiFooter ol li{
+	margin:10px 0;
+	color: #FFF;
+}
+.casiFooter col-xs-1{
+	background-color: #34CE04;
+}
 
+.socialFoot{
+list-style: none;
+}
+
+.socialFoot li{
+color: #FFF;
+float: left;
+font-size: 2.2em;}

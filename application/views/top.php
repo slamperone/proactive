@@ -11,7 +11,7 @@
 
 
     <link href="<?= base_url('assets/css/bootstrap.min.css'); ?>" rel="stylesheet" media="screen">
-    <link href="<?= base_url('assets/css/yellow.css'); ?>" rel="stylesheet" media="screen">
+    <link href="<?= base_url('assets/css/estilos.css'); ?>" rel="stylesheet" media="screen">
     <link href="<?= base_url('assets/css/media-queries.css'); ?>" rel="stylesheet" media="screen">
     <link href="<?= base_url('assets/font/fontello.css'); ?>" rel="stylesheet" >
     <!--[if IE 7]>
@@ -55,9 +55,10 @@
             <div class="navbar-collapse collapse navbar-right">
             <ul class="nav navbar-nav">
             <li><a href="<?= base_url(); ?>">Inicio</a></li>
-            <li><a href="<?= base_url('cursos'); ?>">Cursos</a></li>
+            <li><a href="<?= base_url('informacion'); ?>">Información</a></li>
+            <li><a href="<?= base_url('servicios'); ?>">Servicios</a></li>
+            <li><a href="<?= base_url('cursos'); ?>">Seminarios y Cursos</a></li>
             <li><a href="<?= base_url('nosotros'); ?>">Nosotros</a></li>
-            <li><a href="<?= base_url('servicios'); ?>">Serivios</a></li>
             <li><a href="<?= base_url('contacto'); ?>">Contacto</a></li>
             </ul>
             </div><!--/.nav-collapse -->

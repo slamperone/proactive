@@ -7,11 +7,13 @@
               </div>
               <div class="col-sm-6">
                 <ul>
-                  <li><a href="#"><i class="icon-twitter"></i></a></li>
+                  <!--li><a href="#"><i class="icon-twitter"></i></a></li>
                   <li><a href="#"><i class="icon-facebook"></i></a></li>
                   <li><a href="#"><i class="icon-dribbble"></i></a></li>
                   <li><a href="#"><i class="icon-vimeo"></i></a></li>
-                  <li><a href="#"><i class="icon-behance"></i></a></li>
+                  <li><a href="#"><i class="icon-behance"></i></a></li-->
+                  <li><a href="#"><i class="icon-twitter-circled"></i></a></li>
+                  <li><a href="#"><i class="icon-facebook-circled"></i></a>
                 </ul>
               </div>
             </div>
