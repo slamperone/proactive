@@ -52,5 +52,16 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 $route['default_controller'] = 'home';
 $route['404_override'] = '';
 $route['translate_uri_dashes'] = FALSE;
-$route['informacion/cultura-corporativa'] = 'informacion/cultura_corporativa';
+
+$route['informacion/cultura-corporativa'] = 'informacion';
+$route['informacion/autonomia-de-gestion'] = 'informacion/autonomia';
+$route['informacion/dificultades-empresariales'] = 'informacion/dificultades';
+$route['informacion/ruta-de-salida'] = 'informacion/ruta';
+$route['informacion/propuesta-de-valor'] = 'informacion/propuesta';
+
+$route['servicios/consultoria-empresarial-y-acompanamiento'] = 'servicios/empresarial';
+$route['servicios/consultoria-individual-cursos-y-talleres'] = 'servicios/individual';
+$route['servicios/seguimiento-personalizado'] = 'servicios/seguimiento';
+
+
 

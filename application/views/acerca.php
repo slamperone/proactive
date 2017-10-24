@@ -4,8 +4,7 @@
 
          <!-- title -->
          <div class="row text-center title">
-         	<br /><br />
-           <h1>Quienes Somos</h1>
+           <?php if (isset($titulo) && $titulo != "") {echo '<h1>'.$titulo.'</h1>';}  ?>
          </div>
          <!-- end title -->
 
@@ -14,7 +13,7 @@
 
             <div class="col-md-8">
                <h3>¿Quiénes somos?</h3>
-               <p> Somos un equipo de profesionales/capacitadores y asesores dedicados al crecimiento del desempeño de las personas, para mejorar la productividad calidad y competitividad en las empresas, generando soluciones a la medida enfocadas a obtener una funcional gestión Empresarial proyectada a su máxima posibilidad de productividad.</p>
+               <p>Somos un equipo de consultores y comunicadores profesionales dedicados al crecimiento del desempeño de las personas, para mejorar la productividad, calidad y competitividad en las empresas, generando soluciones a la medida enfocadas a obtener una funcional gestión Empresarial proyectada a su máxima posibilidad de productividad.</p>
             </div>
             <div class="col-md-4"></div>
         </div>
@@ -41,7 +40,7 @@
 
             <div class="col-md-8">
                <h3>Misión</h3>
-               <p>Nuestra misión, es facilitar la evolución individual y colectiva de los colaboradores (trabajadores) en la empresa, para alcanzar relaciones humanas más armónicas, responsables y comprometidas, que permitan la integración de equipos de trabajo de alto desempeño e incrementen la productividad para ofrecer una mejor calidad en bienes y servicios.</p>
+               <p>Nuestra misión, es facilitar la evolución individual y colectiva de los colaboradores (trabajadores) en la empresa, para alcanzar relaciones humanas más armónicas, responsables y comprometidas, que permitan la integración de equipos de trabajo de alto desempeño e incrementen la productividad para ofrecer una mejor calidad en bienes y servicios</p>
             </div>
             <div class="col-md-4"></div>
         </div>
@@ -51,7 +50,7 @@
 
             <div class="col-md-8">
                <h3>Filosofía</h3>
-               <p>Creemos firmemente en el potencial de cada persona, en los Principios que nos rigen y en nuestro enfoque semiológico, porque estamos convencidos de que todo surge a partir del desarrollo integral del individuo.</p>
+               <p>Creemos firmemente en el potencial de cada persona, en los Principios que nos rigen y en nuestro enfoque semiológico, porque estamos convencidos de que todo surge a partir del desarrollo integral del individuo</p>
             </div>
 
         </div>

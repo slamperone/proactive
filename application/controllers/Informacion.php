@@ -5,44 +5,83 @@ class Informacion extends CI_Controller {
 
 	public function index()
 	{
-		$this->load->view('top');
+		$data['titulo'] = "Cultura corporativa";
+		$data['breadcrumbs']  = array('inicio','informacion','cultura colectiva' );
+		$data['menu'] = 'info';
+		//$data['tags'] = array('empresa','desarrollo humano','terapia','seminario','humanista');
+		$this->load->view('top',$data);
 		$this->load->view('cultura');
 		$this->load->view('bottom');
 	}
-	public function cultura_corporativa()
+	public function cultura()
 	{
-		$this->load->view('top');
+		$data['titulo'] = "Cultura colectiva";
+		$data['breadcrumbs']  = array('inicio','informacion','cultura colectiva' );
+		$data['menu'] = 'info';
+		//$data['tags'] = array('empresa','desarrollo humano','terapia','seminario','humanista');
+		$this->load->view('top',$data);
 		$this->load->view('cultura');
 		$this->load->view('bottom');
 	}
-	public function infdex()
+	public function autonomia()
 	{
-		$this->load->view('top');
-		$this->load->view('cultura');
+		$data['titulo'] = "Autonomía de gestión";
+		$data['subtitulo'] = "base fundamental para lograr una productividad integral";
+		$data['breadcrumbs']  = array('inicio','informacion','autonomía de gestión' );
+		$data['menu'] = 'info';
+		//$data['tags'] = array('empresa','desarrollo humano','terapia','seminario','humanista');
+		$this->load->view('top',$data);
+		$this->load->view('autonomia');
 		$this->load->view('bottom');
 	}
-	public function insdex()
+	public function dificultades()
 	{
-		$this->load->view('top');
-		$this->load->view('cultura');
+		$data['titulo'] = "Las dificultades empresariales";
+		$data['breadcrumbs']  = array('inicio','informacion','dificultades empresariales' );
+		$data['menu'] = 'info';
+		//$data['tags'] = array('empresa','desarrollo humano','terapia','seminario','humanista');
+		$this->load->view('top',$data);
+		$this->load->view('dificultades');
 		$this->load->view('bottom');
 	}
-	public function iandex()
+		public function ruta()
 	{
-		$this->load->view('top');
-		$this->load->view('cultura');
+		$data['titulo'] = "Ruta de salida";
+		$data['breadcrumbs']  = array('inicio','informacion','ruta de salida' );
+		$data['menu'] = 'info';
+		//$data['tags'] = array('empresa','desarrollo humano','terapia','seminario','humanista');
+		$this->load->view('top',$data);
+		$this->load->view('ruta');
 		$this->load->view('bottom');
 	}
-	public function infdsex()
+	public function beneficios()
 	{
-		$this->load->view('top');
-		$this->load->view('cultura');
+		$data['titulo'] = "Beneficios";
+		$data['breadcrumbs']  = array('inicio','informacion','beneficios' );
+		$data['menu'] = 'info';
+		//$data['tags'] = array('empresa','desarrollo humano','terapia','seminario','humanista');
+		$this->load->view('top',$data);
+		$this->load->view('beneficios');
 		$this->load->view('bottom');
 	}
-	public function indefx()
+	public function propuesta()
 	{
-		$this->load->view('top');
-		$this->load->view('cultura');
+		$data['titulo'] = "Propuesta de valor ¿Por qué elegir ProActivE?";
+		$data['breadcrumbs']  = array('inicio','informacion','propuesta de valor' );
+		$data['menu'] = 'info';
+		//$data['tags'] = array('empresa','desarrollo humano','terapia','seminario','humanista');
+		$this->load->view('top',$data);
+		$this->load->view('propuesta');
+		$this->load->view('bottom');
+	}
+	public function metodologia()
+	{
+		$data['titulo'] = "Metodología";
+		$data['breadcrumbs']  = array('inicio','informacion','metodología' );
+		$data['menu'] = 'info';
+		//$data['tags'] = array('empresa','desarrollo humano','terapia','seminario','humanista');
+		$this->load->view('top',$data);
+		$this->load->view('metodo');
 		$this->load->view('bottom');
 	}
 }

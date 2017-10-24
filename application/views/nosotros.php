@@ -1,14 +1,16 @@
 
  <!-- Classes Tables -->
-    <section id="menu-classes" class="generic classes animated fadeInUp delay2">
+    <section id="menu-classes" class="generic classes animated fadeInUp delay1">
         <div class="container">
         	<br /><br /><br />
-          <!-- title -->
-          <div class="row text-center title">
-            <h1>Nosotros</h1>
-            <h2>Conoce a nuestro equipo</h2>
-          </div>
-          <!-- end title -->
+
+         <!-- title -->
+         <div class="row text-center title">
+           <?php if (isset($titulo) && $titulo != "") {echo '<h1>'.$titulo.'</h1>';}  ?>
+                      <?php if (isset($subtitulo) && $subtitulo != "") {echo '<h2>'.$subtitulo.'</h2>';}  ?>
+
+         </div>
+         <!-- end title -->
 
           <div class="row">
 

@@ -98,7 +98,7 @@ label.no {
 }
 
 .title {
-	margin: 0 0 40px 0;
+	margin:40px 0;
 }
 
 .title h1{
@@ -209,15 +209,103 @@ header .navbar {
 
 .navbar-default .navbar-nav>li>a{
 	line-height: 1;
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Open Sans', sans-serif;
 	color: #959595;
 	font-size: 1.2em;
 	text-transform: uppercase;
 }
 
+.navbar-default .navbar-nav>li>a:hover, .active, ul.drop-down li a:hover{
+	color: #ef5b2b!important;
+}
 
 
+.navbar-default .navbar-nav > li.drop {
+    position: relative;
+    margin-right: -16px;
+}
 
+.navbar-default .navbar-nav > li.drop:after {
+    position: absolute;
+    color: #cecece;
+    font-size: 13px;
+    right: 0px;
+    top: 50%;
+    margin-top: -7px;
+}
+
+.navbar-default .navbar-nav > li:first-child {
+    margin-left: 0px;
+}
+
+ul.drop-down {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 180px;
+    visibility: hidden\0/;
+    opacity: 0;
+    z-index: 3;
+    transition: all 0.17s ease-in-out;
+    -moz-transition: all 0.17s ease-in-out;
+    -webkit-transition: all 0.17s ease-in-out;
+    -o-transition: all 0.17s ease-in-out;
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    -o-backface-visibility: hidden;
+    -ms-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -webkit-transform-origin: 0 0;
+    -moz-transform-origin: 0 0;
+    -ms-transform-origin: 0 0;
+    -o-transform-origin: 0 0;
+    transform-origin: 0 0;
+    -webkit-transform: rotateX(-90deg);
+    -moz-transform: rotateX(-90deg);
+    -ms-transform: rotateX(-90deg);
+    -o-transform: rotateX(-90deg);
+    transform: rotateX(-90deg);
+    -webkit-transition: -webkit-transform 0.4s, opacity 0.1s 0.3s;
+    -moz-transition: -moz-transform 0.4s, opacity 0.1s 0.3s;
+    -mos-transition: -mos-transform 0.4s, opacity 0.1s 0.3s;
+    -o-transition: -o-transform 0.4s, opacity 0.1s 0.3s;
+}
+
+.navbar-default .navbar-nav > li:hover > ul.drop-down {
+    visibility: visible;
+    opacity: 1;
+    -webkit-transform: rotateX(0deg);
+      -moz-transform: rotateX(0deg);
+      -ms-transform: rotateX(0deg);
+      -o-transform: rotateX(0deg);
+      transform: rotateX(0deg);
+      -webkit-transition: -webkit-transform 0.4s, opacity 0.1s;
+      -moz-transition: -moz-transform 0.4s, opacity 0.1s;
+      -mos-transition: -mos-transform 0.4s, opacity 0.1s;
+      -o-transition: -o-transform 0.4s, opacity 0.1s;
+      transition: transform 0.4s, opacity 0.1s;
+}
+
+ul.drop-down li a {
+    display: block;
+    color: #000;
+    font-size: 14px;
+    padding: 10px 12px;
+    text-decoration: none;
+    text-transform: capitalize;
+    background: rgba(255,255,255,.9);
+    font-weight: 300;
+    opacity: 1;
+    border-top: 1px solid rgba(135,135,135,0.1);
+    transition: all 0.17s ease-in-out;
+    -moz-transition: all 0.17s ease-in-out;
+    -webkit-transition: all 0.17s ease-in-out;
+    -o-transition: all 0.17s ease-in-out;
+}
+
+ul.drop-down li {
+    position: relative;
+}
 
 /* ------------------------------------------------------------------------------- */
 /*  Jumbotron
@@ -905,6 +993,13 @@ font-size: 2.2em;}
 	color: #FFF;3
 }
 
+.spaceServ {
+	background: #D9F5FF url("../img/bg.png") repeat center 0;
+	border-bottom: 1px solid #ededed;
+	border-top: 1px solid #ededed;
+	padding: 30px 0;
+}
+
 .valoresList{
 	font-size: 1.5em;
 }
@@ -926,4 +1021,10 @@ font-size: 2.2em;}
 	border-top: 1px solid #ededed;
 	padding: 30px 0;
 	margin-top: 30px;
+}
+
+.difi li{
+font-size: 14px;
+margin:5px 0;
+display: block;
 }

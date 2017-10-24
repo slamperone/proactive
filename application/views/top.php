@@ -3,8 +3,12 @@
 <head>
     <meta charset="utf-8"/>
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
-   <title>Proactive México</title>
-   <meta name="keywords" content="">
+   <title>Grupo Proactive | <?php if (isset($titulo) && $titulo != "") {echo $titulo;}  ?></title>
+   <meta name="keywords" content="<?php if (isset($tags) && $tags != "") {
+    foreach ($tags as $tag) {
+      echo $tag.',';
+    }
+  }else{echo 'semiología,psicología,desarrollo humano,desarrollo empresarial,desarrollo de conciendia,aumento de productividad';} ?>"/>
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <meta name="description" content="Diploma - Responsive Bootstrap 3 Landing Page Template">
    <meta name="author" content="Develupme studios">
@@ -54,12 +58,31 @@
             </div>
             <div class="navbar-collapse collapse navbar-right">
             <ul class="nav navbar-nav">
-            <li><a href="<?= base_url('acerca'); ?>">Acerca</a></li>
-            <li><a href="<?= base_url('informacion'); ?>">Información</a></li>
-            <li><a href="<?= base_url('servicios'); ?>">Servicios</a></li>
+            <li><a href="<?= base_url('acerca'); ?>" <?php if (isset($menu) && $menu == 'acerca'){echo 'class="active"'; } ?>>Acerca</a></li>
+
+            <li class="drop"><a href="<?= base_url('informacion'); ?>" <?php if (isset($menu) && $menu == 'info'){echo 'class="active"'; } ?>>Información</a>
+                <ul class="drop-down">
+                      <li><a href="<?php echo base_url('informacion/cultura-corporativa'); ?>">Cultura corporativa</a></li>
+                      <li><a href="<?php echo base_url('informacion/autonomia-de-gestion'); ?>">Autonomía de gestión</a></li>
+                      <li><a href="<?php echo base_url('informacion/dificultades-empresariales'); ?>">Dificultades empresariales</a></li>
+                      <li><a href="<?php echo base_url('informacion/ruta-de-salida'); ?>">Ruta de salida</a></li>
+                      <li><a href="<?php echo base_url('informacion/beneficios'); ?>">Beneficios</a></li>
+                      <li><a href="<?php echo base_url('informacion/propuesta-de-valor'); ?>">Propuesta de valor</a></li>
+                      <li><a href="<?php echo base_url('informacion/metodologia'); ?>">Metodología</a></li>
+                    </ul>
+              </li>
+
+            <li class="drop"><a href="<?= base_url('servicios'); ?>" <?php if (isset($menu) && $menu == 'servicios'){echo 'class="active"'; } ?>>Servicios</a>
+                <!--ul class="drop-down">
+                        <li><a href="<?php echo base_url('servicios/consultoria-empresarial-y-acompanamiento'); ?>">Consultoría empresarial y acompañamiento</a></li>
+                        <li><a href="<?php echo base_url('servicios/consultoria-individual-cursos-y-talleres'); ?>">Consultoría individual, cursos y talleres</a></li>
+                        <li><a href="<?php echo base_url('servicios/seguimiento-personalizado'); ?>">Seguimiento personalizado</a></li>
+                </ul-->
+            </li>
             <li><a href="<?= base_url('cursos'); ?>">Seminarios y Cursos</a></li>
-            <li><a href="<?= base_url('nosotros'); ?>">Nosotros</a></li>
+            <li><a href="<?= base_url('nosotros'); ?>" <?php if (isset($menu) && $menu == 'nos'){echo 'class="active"'; } ?>>Nosotros</a></li>
             <li><a href="<?= base_url('contacto'); ?>">Contacto</a></li>
+
             </ul>
             </div><!--/.nav-collapse -->
             </div>
