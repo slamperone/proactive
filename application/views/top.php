@@ -79,9 +79,9 @@
                         <li><a href="<?php echo base_url('servicios/seguimiento-personalizado'); ?>">Seguimiento personalizado</a></li>
                 </ul-->
             </li>
-            <li><a href="<?= base_url('cursos'); ?>">Seminarios y Cursos</a></li>
+            <li><a href="<?= base_url('cursos'); ?>" <?php if (isset($menu) && $menu == 'cursos'){echo 'class="active"'; } ?>>Seminarios y Cursos</a></li>
             <li><a href="<?= base_url('nosotros'); ?>" <?php if (isset($menu) && $menu == 'nos'){echo 'class="active"'; } ?>>Nosotros</a></li>
-            <li><a href="<?= base_url('contacto'); ?>">Contacto</a></li>
+            <!--li><a href="<?= base_url('contacto'); ?>">Contacto</a></li-->
 
             </ul>
             </div><!--/.nav-collapse -->
