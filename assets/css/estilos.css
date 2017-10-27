@@ -56,17 +56,17 @@ html,body{
 		outline: none;
 }
 
-h1 { font-size: 2em; font-weight:400; line-height:2em; font-family: 'Open Sans', sans-serif;; color:#fbaf41; }
+h1 { font-size: 2em; font-weight:400; line-height:2em; font-family: 'Open Sans', sans-serif;; color:#123C68; }
 
-h2 { font-size: 1.8em; font-weight:400; line-height:1.8em; font-family: 'Open Sans', sans-serif; color:#fbaf41; }
+h2 { font-size: 1.8em; font-weight:400; line-height:1.8em; font-family: 'Open Sans', sans-serif; color:#123C68; }
 
-h3 { font-size: 1.7em; font-weight:600; line-height:3.5em; font-family: 'Open Sans', sans-serif; color:#fbaf41; }
+h3 { font-size: 1.7em; font-weight:600; line-height:3.5em; font-family: 'Open Sans', sans-serif; color:#123C68; }
 
-h4 { font-size: 1.4em; font-weight:400; line-height:1.4em; font-family: 'Open Sans', sans-serif; color:#fbaf41; }
+h4 { font-size: 1.4em; font-weight:400; line-height:1.4em; font-family: 'Open Sans', sans-serif; color:#123C68; }
 
-h5 { font-size: 1.2em; font-weight:400; line-height:1.3em; font-family: 'Open Sans', sans-serif; color:#fbaf41; }
+h5 { font-size: 1.2em; font-weight:400; line-height:1.3em; font-family: 'Open Sans', sans-serif; color:#123C68; }
 
-h6 { font-size: 0.5em; font-weight:400; line-height:1em; font-family: 'Open Sans', sans-serif; color:#fbaf41; }
+h6 { font-size: 0.5em; font-weight:400; line-height:1em; font-family: 'Open Sans', sans-serif; color:#123C68; }
 
 p { font-size: 1.4em; font-weight:400;  line-height:1.6em; font-family: 'Open Sans', sans-serif;  color: #9d9fa2 }
 
@@ -102,7 +102,7 @@ label.no {
 }
 
 .title h1{
-	color: #fbaf41;
+	color: #30436A;
 	font-family: 'Montserrat', sans-serif;
 	font-weight: 400;
 	font-size: 2.6em;
@@ -312,7 +312,8 @@ ul.drop-down li {
 /* ------------------------------------------------------------------------------- */
 
 .jumbotron {
-	background: #fbaf41 url("../img/bg.png") repeat 0 0;
+	/*background: #fbaf41 url("../img/bg.png") repeat 0 0;*/
+	background: #D9E9F7 url("../img/bg.png") repeat 0 0;
 	color: #fff;
 	margin-bottom: 0;
 	padding-top: 200px;
@@ -326,14 +327,14 @@ ul.drop-down li {
 	font-size: 3.3em;
 	line-height: 1;
 	letter-spacing: -6px;
-	text-shadow: 3px 3px 0px #fc9c20;
+	text-shadow: 3px 3px 0px #123C68;
 }
 
 .jumbotron h2 {
-	border-top: 2px dotted #fff;
-	border-bottom: 2px dotted #fff;
+	border-top: 2px dotted #123C68;
+	border-bottom: 2px dotted #123C68;
 	padding: 2% 0;
-	color: #fff;
+	color: #123C68;
 	font-family: 'Montserrat', sans-serif;
 	font-size: 1.2em;
 	font-weight: 400;
@@ -344,7 +345,7 @@ ul.drop-down li {
 
 .jumbotron p {
 	line-height: 1.4;
-	color: #fff;
+	color: #123C68;
 	font-size: 0.7em;
 	margin: 2% 0;
 }
@@ -379,7 +380,7 @@ form.suscribe .btn:hover {
 /* ------------------------------------------------------------------------------- */
 
 .features .item i {
-	background: #fbaf41;
+	background: #30436A;
     border-radius: 50% 50% 50% 50%;
     color: #fff;
     font-size: 5em;
@@ -429,13 +430,13 @@ form.suscribe .btn:hover {
 }
 
 .features .item:hover i {
-	box-shadow: 0 0 0 10px #ef5b2b;
-	color: #ef5b2b;
+	box-shadow: 0 0 0 10px #F9A020;
+	color: #F9A020;
 	background: #fff;
 }
 
 .features .item:hover h3 {
-	color: #ef5b2b;
+	color: #F9A020;
 }
 
 .vertical_line {
@@ -880,7 +881,7 @@ form.suscribe .btn:hover {
 /* ------------------------------------------------------------------------------- */
 
 footer {
-	background: #bb3b11;
+	background: #123C68;
 	color: #fff;
 	padding: 20px 0;
 }
@@ -952,14 +953,14 @@ footer {
 }
 
 .casiFooter{
-	min-height: 200px;
-	background: #ef5b2b;
+	min-height: 20px;
+	background: #D9E9F7;
 }
 .casiFooter h2{
-	color: #FFF!important;
+	color: #30436A!important;
 }
 .casiFooter p{
-	color: #FFF!important;
+	color: #30436A!important;
 	font-size: 10px;
 }
 .casiFooter ol{
@@ -968,7 +969,7 @@ footer {
 }
 .casiFooter ol li{
 	margin:10px 0;
-	color: #FFF;
+	color: #30436A;
 }
 .casiFooter col-xs-1{
 	background-color: #34CE04;
@@ -1023,6 +1024,13 @@ font-size: 2.2em;}
 	margin-top: 30px;
 }
 
+.frase2{
+		background: #66CCFF url("../img/bg.png") repeat right;
+	border-bottom: 1px solid #ededed;
+	border-top: 1px solid #ededed;
+	padding: 30px 0;
+}
+
 .difi li{
 font-size: 14px;
 margin:5px 0;
@@ -1033,3 +1041,29 @@ display: block;
     display: flex;
     align-items: center;
 }
+
+.homeTit{
+	    line-height: 1.5em;
+	    margin-top: 20px;
+}
+
+.naranja{
+color: #ef5b2b;
+}
+.cursosDos, .cursosUno{
+padding: 10px 0;
+margin: 10px 0;
+}
+
+.cursosDos ul li, .cursosUno ul li{
+font-size: 1.3em;
+line-height: 1.3em;
+}
+.cursosUno{
+	background: #D5F6FF url("../img/bg.png") repeat right;
+}
+.cursosDos{
+	
+}
+
+

@@ -63,5 +63,9 @@ $route['servicios/consultoria-empresarial-y-acompanamiento'] = 'servicios/empres
 $route['servicios/consultoria-individual-cursos-y-talleres'] = 'servicios/individual';
 $route['servicios/seguimiento-personalizado'] = 'servicios/seguimiento';
 
+$route['cursos/ambiente-responsable'] = 'cursos/ambiente';
+$route['cursos/estres-laboral'] = 'cursos/estres';
+$route['cursos/emociones-en-el-trabajo'] = 'cursos/emociones';
+$route['cursos/violencia-laboral'] = 'cursos/violencia';
 
 

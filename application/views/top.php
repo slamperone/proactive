@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8"/>
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
-   <title>Grupo Proactive | <?php if (isset($titulo) && $titulo != "") {echo $titulo;}  ?></title>
+   <title>Grupo Proactive<?php if (isset($titulo) && $titulo != "") {echo ' | '.$titulo;}  ?></title>
    <meta name="keywords" content="<?php if (isset($tags) && $tags != "") {
     foreach ($tags as $tag) {
       echo $tag.',';
@@ -79,7 +79,22 @@
                         <li><a href="<?php echo base_url('servicios/seguimiento-personalizado'); ?>">Seguimiento personalizado</a></li>
                 </ul-->
             </li>
-            <li><a href="<?= base_url('cursos'); ?>" <?php if (isset($menu) && $menu == 'cursos'){echo 'class="active"'; } ?>>Seminarios y Cursos</a></li>
+            <li><a href="<?= base_url('cursos'); ?>" <?php if (isset($menu) && $menu == 'cursos'){echo 'class="active"'; } ?>>Seminarios y Cursos</a>
+              <ul class="drop-down">
+                        <li><a href="<?php echo base_url('cursos/ambiente-responsable'); ?>">Ambiente responsable</a></li>
+                        <li><a href="<?php echo base_url('cursos/curso1'); ?>">Beneficios Curso 1</a></li>
+                        <li><a href="<?php echo base_url('cursos/curso2'); ?>">Beneficios Curso 2</a></li>
+                        <li><a href="<?php echo base_url('cursos/curso3'); ?>">Beneficios Curso 3</a></li>
+                        <li><a href="<?php echo base_url('cursos/curso4'); ?>">Beneficios Curso 4</a></li>
+                        <li><a href="<?php echo base_url('cursos/curso5'); ?>">Beneficios Curso 5</a></li>
+                        <li><a href="<?php echo base_url('cursos/curso6'); ?>">Beneficios Curso 6</a></li>
+                        <li><a href="<?php echo base_url('cursos/curso7'); ?>">Beneficios Curso 7</a></li>
+                        <li><a href="<?php echo base_url('cursos/estres-laboral'); ?>">Estrés laboral</a></li>
+                        <li><a href="<?php echo base_url('cursos/emociones-en-el-trabajo'); ?>">Emociones en el trabajo</a></li>
+                        <li><a href="<?php echo base_url('cursos/violencia-laboral'); ?>">Violencia laboral </a></li>
+              </ul>
+
+            </li>
             <li><a href="<?= base_url('nosotros'); ?>" <?php if (isset($menu) && $menu == 'nos'){echo 'class="active"'; } ?>>Nosotros</a></li>
             <!--li><a href="<?= base_url('contacto'); ?>">Contacto</a></li-->
 

@@ -15,11 +15,11 @@
           <div class="row">
 
           	<!-- table 2 -->
-            <div class="col-md-3">
+            <div class="col-sm-2 col-md-3">
             </div>
 
             <!-- table 1 -->
-            <div class="col-md-3">
+            <div class="col-sm-4 col-md-3">
               <div class="item">
                 <div class="ch-item giovanni thumb">
                 <div class="ch-info">
@@ -42,7 +42,7 @@
 
 
             <!-- table 3 -->
-            <div class="col-md-3">
+            <div class="col-sm-4 col-md-3">
               <div class="item">
                 <div class="ch-item joaquin thumb">
                 <div class="ch-info">
@@ -62,7 +62,7 @@
             </div>
 
                         <!-- table 2 -->
-            <div class="col-md-3">
+            <div class="col-sm-2 col-md-3">
             </div>
 
         	</div> <!-- end row -->

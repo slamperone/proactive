@@ -1,3 +1,9 @@
+<section class="casiFooter">
+    <div class="container">
+      <div class="row">
+        </div>
+      </div>
+    </section>
 	<!-- Footer -->
 	<footer>
     	<div class="container">

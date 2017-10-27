@@ -3,10 +3,10 @@
     <section class="jumbotron animated fadeInUp delay2" id="menu-jumbotron">
 		<div class="container">
 			<div class="row">
-				<div class="col-md-6">
+				<div class="col-sm-6 col-md-6">
 					<h1>Haz contacto</h1>
 					<h2>Somos tu mejor opción en capacitación de personal</h2>
-					<p>Déjanos tus datos y permítenos hacer el primer contacto.</p>
+					<p>Déjanos tus datos y permítenos hacer el primer acercamiento.</p>
 					<form id="contact" class="row suscribe" action="contact-form.php" method="post" accept-charset="utf-8">
 						<div class="col-sm-6">
 							<input type="text" class="form-control" placeholder="Nombre" name="name">
@@ -21,7 +21,7 @@
 						</div>
 					</form>
 				</div>
-				<div class="col-md-6">
+				<div class="col-sm-6 col-md-6">
 					<img src="<?= base_url('assets/img/chica-solicitando-informacion.png'); ?>" alt="envíanos tu información proactive semiología" class="figure">
 				</div>
 			</div>
@@ -46,27 +46,26 @@
          <div class="row">
 
             <div class="col-md-3 text-center item">
-               <i class="icon-back-in-time"></i>
-               <h3>PNL</h3>
-               <p> Nulla ornare tortor quis rhoncus vulputate. Vivamus a enim vel erat. </p>
+               <i class="icon-book"></i>
+               <h3 class="homeTit">Semiologia de la Vida Cotidiana</h3>
+               <p>Modelo educativo para la Productividad Integral.</p>
             </div>
 
             <div class="col-md-3 text-center item">
-               <i class="icon-trophy"></i>
-               <h3>Terapia Corporal</h3>
-               <p> Nulla ornare tortor quis rhoncus vulputate. Vivamus a enim vel erat. </p>
+               <i class="icon-user"></i>
+               <h3 class="homeTit">Dinamicas Emocionales y corporles</h3>
+               <p>Apoyo en la comprensión de la información en personas racionales, emocionales y motrices</p>
+            </div>
+            <div class="col-md-3 text-center item">
+               <i class="icon-keyboard"></i>
+               <h3 class="homeTit">Autonomía de gestión</h3>
+               <p>Procesamiento individual y constante de problemas y problemáticas. en esta va un logo de una computadora</p>
             </div>
 
             <div class="col-md-3 text-center item">
-               <i class="icon-flow-tree"></i>
-               <h3>Herramientas Gestalt</h3>
-               <p> Nulla ornare tortor quis rhoncus vulputate. Vivamus a enim vel erat. </p>
-            </div>
-
-            <div class="col-md-3 text-center item">
-               <i class="icon-globe"></i>
-               <h3>Narrativa</h3>
-               <p> Nulla ornare tortor quis rhoncus vulputate. Vivamus a enim vel erat. </p>
+               <i class="icon-chart-pie"></i>
+               <h3 class="homeTit">Test</h3>
+               <p>Diagnóstico de necesidades empresariales</p>
             </div>
 
          </div>
@@ -87,8 +86,8 @@
 
            <!-- title -->
            <div class="row text-center title">
-              <h1>Conoce nuestros cursos y talleres registrados ante la STPS</h1>
-              <h2>Fortalece las hablidiades y refuerza las debilidades de tus colaboradores, mientras se crea un ambiente positivo de convivencia y desestress.</h2>
+              <h1>Conoce nuestros cursos y talleres</h1>
+              <h2>Fortalece las hablidiades y refuerza las debilidades de tus colaboradores, mientras se crea un ambiente positivo.</h2>
            </div>
            <!-- end title -->
 
