@@ -14,28 +14,33 @@
           <div class="row">
 
             <div class="col-md-9">
-               <p>ProActivE es una empresa de capacitación empresarial y personal,
-sustentada en el <b>desarrollo de conciencia</b>, con el fin de <b>aumentar la productividad</b> por medio del desarrollo humano y la calidad de vida del personal, de modo que incide tanto en el individuo como en la empresa y en la sociedad.</p>
+               <p><b>ProActivE</b>, somos un grupo de consultores. Brindamos Capacitación empresarial y personal.</p><br />
 
-<p>Somos un modelo educativo humanista, ya que tomamos a la <b>persona como el centro</b> para elevar la productividad integral.<br />
-Si mejoramos la conciencia del individuo, este va a tener una mayor realización personal y por tanto tendrá una mejora en su desempeño laboral.</p>
+<p><b>Desarrollamos la conciencia de la persona</b></p>
 <br /><br />
+
+
+<ol>
+  <li>Incrementamos la calidad de vida de los individuos</li>
+  <li><b>Generamos mayor productividad en tu empresa.</b></li>
+  <li>Incidiendo de manera proactiva en el individuo, la familia, la empresa y en la sociedad.</li>
+</ol>
+
+<p>Somos un modelo educativo humanista, ya que tomamos a la <b>persona como el centro</b> para elevar la productividad integral.
+</p>
+
+<br><br>
+
+<p>¡¡Desarrolla tu conciencia personal!! y la de tus colaboradores, lograras armonía en tu vida cotidiana, en tu empresa y por tanto mayor productividad.
+</p>
+<br><br>
             </div>
         </div>
-
-
-         <div class="row text-center frase">
-           <h2>“La plenitud del individuo, 
-es el sustento del líder.
-La plenitud del líder es el sustento de la empresa
-La plenitud de la empresa, es el sustento de la productividad.
-La plenitud de la productividad es el sustento del individuo"</h2>
-         </div>
-
-
-                  <div class="row text-center frase1">
-           <h2>No se transforma a la empresa, se transforma al ser; la productividad solo ocurre en consecuencia
-</h2>
-         </div>
     </div>
+</section>
+   <section class="generic animated fadeInUp delay1 frase">
+
+         <div class="row text-center">
+           <h2>No se transforma a la empresa, se transforma al individuo; la productividad solo ocurre en consecuencia</h2>
+         </div>
 </section>

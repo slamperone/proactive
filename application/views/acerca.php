@@ -13,7 +13,7 @@
 
             <div class="col-md-8">
                <h3>¿Quiénes somos?</h3>
-               <p>Somos un equipo de consultores y comunicadores profesionales dedicados al crecimiento del desempeño de las personas, para mejorar la productividad, calidad y competitividad en las empresas, generando soluciones a la medida enfocadas a obtener una funcional gestión Empresarial proyectada a su máxima posibilidad de productividad.</p>
+               <p>Somos un equipo de consultores y comunicadores profesionales dedicados al crecimiento del desempeño de las personas, para mejorar la productividad, calidad y competitividad en las empresas, generando soluciones a la medida enfocadas en obtener una funcional gestión empresarial proyectada a su máxima posibilidad de productividad.</p>
             </div>
             <div class="col-md-4"></div>
         </div>
@@ -29,7 +29,7 @@
 
             <div class="col-md-8">
                <h3>Visión</h3>
-               <p>Nuestros clientes se suman satisfechos, al contar con un sentido de vida y herramientas que les permiten laborar con profesionalismo, para un mejor bienestar personal, familiar y para con la empresa.  Esto nos permite sentir orgullo y pasión por lo que somos y por lo que hacemos.</p>
+               <p>Nuestros clientes se suman satisfechos, al contar con un sentido de vida y herramientas que les permiten laborar con profesionalismo, ofreciendo un bienestar personal, familiar y para con la empresa. Esto nos permite sentir orgullo y pasión por lo que somos y por lo que hacemos.</p>
             </div>
 
         </div>
@@ -40,7 +40,8 @@
 
             <div class="col-md-8">
                <h3>Misión</h3>
-               <p>Nuestra misión, es facilitar la evolución individual y colectiva de los colaboradores (trabajadores) en la empresa, para alcanzar relaciones humanas más armónicas, responsables y comprometidas, que permitan la integración de equipos de trabajo de alto desempeño e incrementen la productividad para ofrecer una mejor calidad en bienes y servicios</p>
+               <p>Nuestra misión es facilitar la evolución individual y colectiva de los colaboradores (trabajadores) en la empresa, con el objetivo de alcanzar relaciones humanas más armónicas, responsables y comprometidas, que permitan la integración de equipos de trabajo de alto desempeño e incrementen la productividad para ofrecer una mejor calidad en bienes y servicios.
+</p>
             </div>
             <div class="col-md-4"></div>
         </div>
@@ -50,7 +51,7 @@
 
             <div class="col-md-8">
                <h3>Filosofía</h3>
-               <p>Creemos firmemente en el potencial de cada persona, en los Principios que nos rigen y en nuestro enfoque semiológico, porque estamos convencidos de que todo surge a partir del desarrollo integral del individuo</p>
+               <p>Creemos firmemente en el potencial de cada persona, en los principios que nos rigen y en nuestro enfoque semiológico, porque estamos convencidos de que todo surge a partir del desarrollo integral del individuo.</p>
             </div>
 
         </div>
@@ -64,7 +65,7 @@
 
             <div class="col-md-8">
                <h3>Compromiso</h3>
-               <p>Nuestro compromiso, es ofrecer un servicio de calidad humana y de experiencia compartida, al poder contar (como valor agregado) con materiales de apoyo cuidadosamente seleccionados, para darle continuidad y solidez al aprendizaje adquirido y lograr así, un mejor nivel de satisfacción de todos los participantes.</p>
+               <p>Nuestro compromiso es ofrecer un servicio de calidad humana y de experiencia compartida, al poder contar (como valor agregado) con materiales de apoyo cuidadosamente seleccionados, para darle continuidad y solidez al aprendizaje adquirido y lograr así un mejor nivel de satisfacción de todos los participantes.</p>
             </div>
             <div class="col-md-4"></div>
         </div>

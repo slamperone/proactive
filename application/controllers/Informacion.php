@@ -6,6 +6,7 @@ class Informacion extends CI_Controller {
 	public function index()
 	{
 		$data['titulo'] = "Cultura corporativa";
+		$data['subtitulo'] = "El futuro esta en tus manos ahora";
 		$data['breadcrumbs']  = array('inicio','informacion','cultura colectiva' );
 		$data['menu'] = 'info';
 		//$data['tags'] = array('empresa','desarrollo humano','terapia','seminario','humanista');

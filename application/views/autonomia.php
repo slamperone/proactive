@@ -28,6 +28,58 @@ Es un cambio radical de creencias en la cultura organizacional enfocado en la ca
             </div>
 </div>
 
+<div class="row text-center title">
+<h2>Si al menos identificaste una de las anteriores seguramente tienes estas oportunidades de mejora</h2>
+
+
+<ul class="autonomia">
+<li><i class="icon-large icon-attach"></i>Pérdida de ventas</li></ul>
+
+
+<ul class="autonomia">
+  <li>Fuga de talentos</li>
+  <li>Personal clave</li>
+  <li>Lideres</li>
+  <li>Estrategas</li>
+</ul>
+
+
+<ul class="autonomia">
+  <li>Fuga de información estratégica</li>
+  <li>Deslealtad</li>
+  <li>Inseguridad empresarial</li>
+</ul>
+
+
+<ul class="autonomia">
+  <li>Ambiente laboral disfuncional</li>
+  <li>Problemas de acuerdos entre colaboradores</li>
+  <li>Falta de cooperación en equipos de trabajo</li>
+  <li>Robo y abuso de confianza</li>
+  <li>Mala comunicación</li>
+  <li>Falta de sentido y realización individual</li>
+</ul>
+
+
+<ul class="autonomia">
+  <li>Disminución de la productividad</li>
+  <li>Ausentismo</li>
+  <li>Incremento en los riesgos de trabajo</li>
+  <li>Enfermedades por estrés</li>
+  <li>Pérdida de tiempo por disperción atencional</li>
+  <li>Desperdicio de materiales</li>
+</ul>
+
+
+
+Mala capacitación de trabajadores genera pérdidas de hasta 70% a empresas
+
+
+Por lo cual, se reafirma una vez mas, la importancia que tiene invertir en el crecimiento de conciencia (capacitación), para el optimo funcionamiento de una empresa.
+
+
+
+</div>
 
     </div>
 </section>
