@@ -30,56 +30,75 @@ Es un cambio radical de creencias en la cultura organizacional enfocado en la ca
 
 <div class="row text-center title">
 <h2>Si al menos identificaste una de las anteriores seguramente tienes estas oportunidades de mejora</h2>
+<div class="col-md-2 col-xs-12">&nbsp;</div>
+<div class="col-md-8 col-xs-12">
+<ul class="autonomia">
+<li><i class="icon-right-open"></i>Pérdida de ventas</li></ul>
 
 
 <ul class="autonomia">
-<li><i class="icon-large icon-attach"></i>Pérdida de ventas</li></ul>
+<li><i class="icon-right-open"></i>Fuga de talentos
+  <ul>
+          <li>Personal clave</li>
+          <li>Lideres</li>
+          <li>Estrategas</li>
+        </ul>
+    </li>
 
-
-<ul class="autonomia">
-  <li>Fuga de talentos</li>
-  <li>Personal clave</li>
-  <li>Lideres</li>
-  <li>Estrategas</li>
 </ul>
 
 
 <ul class="autonomia">
-  <li>Fuga de información estratégica</li>
-  <li>Deslealtad</li>
+<li><i class="icon-right-open"></i>Fuga de información estratégica
+  <ul>
+          <li>Deslealtad</li>
   <li>Inseguridad empresarial</li>
+        </ul>
+    </li>
+
 </ul>
 
-
 <ul class="autonomia">
-  <li>Ambiente laboral disfuncional</li>
-  <li>Problemas de acuerdos entre colaboradores</li>
+<li><i class="icon-right-open"></i>Ambiente laboral disfuncional
+  <ul>
+          <li>Problemas de acuerdos entre colaboradores</li>
   <li>Falta de cooperación en equipos de trabajo</li>
   <li>Robo y abuso de confianza</li>
   <li>Mala comunicación</li>
   <li>Falta de sentido y realización individual</li>
+    </li>
+
+</ul>
+</li>
 </ul>
 
-
 <ul class="autonomia">
-  <li>Disminución de la productividad</li>
-  <li>Ausentismo</li>
+<li><i class="icon-right-open"></i>Disminución de la productividad
+  <ul>
+          <li>Ausentismo</li>
   <li>Incremento en los riesgos de trabajo</li>
   <li>Enfermedades por estrés</li>
   <li>Pérdida de tiempo por disperción atencional</li>
   <li>Desperdicio de materiales</li>
+    </li>
+
 </ul>
-
-
-
-Mala capacitación de trabajadores genera pérdidas de hasta 70% a empresas
-
-
-Por lo cual, se reafirma una vez mas, la importancia que tiene invertir en el crecimiento de conciencia (capacitación), para el optimo funcionamiento de una empresa.
+</li>
+</ul>
 
 
 
 </div>
 
     </div>
+</section>
+
+   <section class="generic animated fadeInUp delay1 frase">
+
+         <div class="row text-center">
+<h2>Mala capacitación de trabajadores genera pérdidas de hasta 70% a empresas</h2>
+
+
+<h2>Por lo cual, se reafirma una vez mas, la importancia que tiene invertir en el crecimiento de conciencia (capacitación), para el optimo funcionamiento de una empresa.</h2>
+</div>
 </section>

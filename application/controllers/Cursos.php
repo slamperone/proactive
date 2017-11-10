@@ -156,7 +156,7 @@ class Cursos extends CI_Controller {
 		//$data['tags'] = array('empresa','desarrollo humano','terapia','seminario','humanista');
 
 		$this->load->view('top',$data);
-		$this->load->view('ambiente');
+		$this->load->view('productividad');
 		$this->load->view('bottom');
 
 }
@@ -168,7 +168,19 @@ class Cursos extends CI_Controller {
 		//$data['tags'] = array('empresa','desarrollo humano','terapia','seminario','humanista');
 
 		$this->load->view('top',$data);
-		$this->load->view('ambiente');
+		$this->load->view('liderazgo');
+		$this->load->view('bottom');
+
+}
+public function semiologia()
+	{
+		$data['titulo'] = "NUESTROS CURSOS, TALLERES y conferencias de Semiología de la vida cotidiana:”";
+		$data['breadcrumbs']  = array('inicio','cursos','Semiología de la vida cotidiana' );
+		$data['menu'] = 'cursos';
+		//$data['tags'] = array('empresa','desarrollo humano','terapia','seminario','humanista');
+
+		$this->load->view('top',$data);
+		$this->load->view('semiologia');
 		$this->load->view('bottom');
 
 }

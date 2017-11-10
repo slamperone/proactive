@@ -10,8 +10,8 @@
     }
   }else{echo 'semiología,psicología,desarrollo humano,desarrollo empresarial,desarrollo de conciendia,aumento de productividad';} ?>"/>
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <meta name="description" content="Diploma - Responsive Bootstrap 3 Landing Page Template">
-   <meta name="author" content="Develupme studios">
+   <meta name="description" content="">
+   <meta name="author" content="">
 
 
     <link href="<?= base_url('assets/css/bootstrap.min.css'); ?>" rel="stylesheet" media="screen">
@@ -90,10 +90,11 @@
                         <li><a href="<?php echo base_url('cursos/curso4'); ?>">Beneficios Curso 4</a></li>
                         <li><a href="<?php echo base_url('cursos/curso5'); ?>">Beneficios Curso 5</a></li>
                         <li><a href="<?php echo base_url('cursos/curso6'); ?>">Beneficios Curso 6</a></li>
-                        <li><a href="<?php echo base_url('cursos/curso7'); ?>">Beneficios Curso 7</a></li-->
+                        <li><a href="<?php echo base_url('cursos/curso7'); ?>">Beneficios Curso 7</a></li>
                         <li><a href="<?php echo base_url('cursos/estres-laboral'); ?>">Estrés laboral</a></li>
                         <li><a href="<?php echo base_url('cursos/emociones-en-el-trabajo'); ?>">Emociones en el trabajo</a></li>
-                        <li><a href="<?php echo base_url('cursos/violencia-laboral'); ?>">Violencia laboral </a></li>
+                        <li><a href="<?php echo base_url('cursos/violencia-laboral'); ?>">Violencia laboral </a></li-->
+                        <li><a href="<?php echo base_url('cursos/semiologia'); ?>">Semiología de la vida cotidiana </a></li>
 
               </ul>
 

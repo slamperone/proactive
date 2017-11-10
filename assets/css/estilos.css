@@ -1066,13 +1066,29 @@ line-height: 1.3em;
 	
 }
 
+
 .autonomia{
 	display: block;
-	margin:20px 0;
+margin: 20px auto;
+	font-size: 1.5em;
+	font-weight: bold;
+	text-align: left;
+}
+.autonomia ul li{
+	text-align: left;
+	margin: 20px 0 20px 52px;
+	color: #283858;
+	font-weight: lighter;
+}
+.autonomia ul li:before{
+	font-family: 'fontello';
+	padding-left: 40px;
+	content: '\e819';
+	list-style: '\e819';
 }
 
-.autonomia li{
-	list-style: 
+@media only screen and (max-width: 600px)  {
+	.autonomia ul li{
+		margin: 20px 0;
+	}
 }
-
-

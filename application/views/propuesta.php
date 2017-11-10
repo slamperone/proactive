@@ -27,7 +27,7 @@
           	<div class="col-md-4"></div>
 
             <div class="col-md-8">
-               <p>En “ProActivE” hemos desarrollado programas de <b>capacitación integral</b> específicos, vinculados al desarrollo de la conciencia, para <b>empoderarlos</b> y conseguir así, las metas de la empresa.</p>
+               <p>En ProActivE hemos desarrollado programas de <b>capacitación integral</b> específicos, vinculados al desarrollo de la conciencia, para <b>empoderarlos</b> y obtener así las metas de la empresa.</p>
             </div>
 
         </div>
@@ -54,7 +54,8 @@
             <div class="col-md-4"></div>
 
             <div class="col-md-8">
-               <p>Ofrecemos un seguimiento de resultados, por 3 meses, apoyando nuestro sistema con <b>Visualización creativa para reforzar el aprendizaje</b>, en sesiones diarias y así lograr un mejor anclaje del conocimiento ya instalado.</p>
+               <p>Anclamos de manera integral y personalizada el conocimiento de una forma lúdica y vivencial, para lograr un mejor <b>aprendizaje a nivel Racional, Emocional y Motriz</b> (corporal), a través de herramientas de alto rendimiento, mismas que permiten alcanzar resultados más efectivos y satisfactorios.
+</p>
             </div>
 
         </div>
@@ -67,9 +68,24 @@
           <div class="row">
 
             <div class="col-md-8">
-               <p>Apoyamos a la empresa a generar una <b>autonomía de gestión</b>, para que el empleado pueda procesar sus situaciones conflictivas venideras y genere una mayor evolución laboral.</p>
+               <p>Ofrecemos un seguimiento de resultados por 3 meses, apoyando nuestro sistema con <b>Visualización creativa para reforzar el aprendizaje</b>, en sesiones diarias para un mejor anclaje del conocimiento ya instalado.   
+</p>
             </div>
             <div class="col-md-4"></div>
         </div>
         </div>
     </section>
+<section class="frase1 generic animated fadeInUp delay2">
+  <div class="container">
+          <div class="row">
+
+            <div class="col-md-4"></div>
+
+            <div class="col-md-8">
+               <p>Apoyamos a la empresa a generar una <b>autonomía de gestión</b>, con el fin de que el empleado pueda procesar sus situaciones conflictivas venideras y genere una mayor evolución laboral.
+</p>
+            </div>
+
+        </div>
+    </div>
+</section>
