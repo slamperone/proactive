@@ -85,4 +85,15 @@ class Informacion extends CI_Controller {
 		$this->load->view('metodo');
 		$this->load->view('bottom');
 	}
+
+	public function aviso()
+	{
+		$data['titulo'] = "Aviso de privacidad";
+		$data['breadcrumbs']  = array('inicio','informacion','aviso de privacidad' );
+		$data['menu'] = 'info';
+		//$data['tags'] = array('empresa','desarrollo humano','terapia','seminario','humanista');
+		$this->load->view('top',$data);
+		$this->load->view('aviso');
+		$this->load->view('bottom');
+	}
 }

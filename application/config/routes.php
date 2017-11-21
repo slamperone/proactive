@@ -58,6 +58,7 @@ $route['informacion/autonomia-de-gestion'] = 'informacion/autonomia';
 $route['informacion/dificultades-empresariales'] = 'informacion/dificultades';
 $route['informacion/ruta-de-salida'] = 'informacion/ruta';
 $route['informacion/propuesta-de-valor'] = 'informacion/propuesta';
+$route['informacion/aviso-de-privacidad'] = 'informacion/aviso';
 
 $route['servicios/consultoria-empresarial-y-acompanamiento'] = 'servicios/empresarial';
 $route['servicios/consultoria-individual-cursos-y-talleres'] = 'servicios/individual';

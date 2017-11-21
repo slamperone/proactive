@@ -13,11 +13,11 @@
    <meta name="description" content="">
    <meta name="author" content="">
 
-
+    <link href="<?= base_url('assets/font/fontello.css'); ?>" rel="stylesheet" >
     <link href="<?= base_url('assets/css/bootstrap.min.css'); ?>" rel="stylesheet" media="screen">
     <link href="<?= base_url('assets/css/estilos.css'); ?>" rel="stylesheet" media="screen">
     <link href="<?= base_url('assets/css/media-queries.css'); ?>" rel="stylesheet" media="screen">
-    <link href="<?= base_url('assets/font/fontello.css'); ?>" rel="stylesheet" >
+
     <!--[if IE 7]>
     <link href="<?= base_url('assets/font/fontello-ie7.css'); ?>" rel="stylesheet" ><![endif]-->
 
@@ -58,7 +58,7 @@
             </div>
             <div class="navbar-collapse collapse navbar-right">
             <ul class="nav navbar-nav">
-            <li><a href="<?= base_url('acerca'); ?>" <?php if (isset($menu) && $menu == 'acerca'){echo 'class="active"'; } ?>>Acerca</a></li>
+            <!--li><a href="<?= base_url('acerca'); ?>" <?php if (isset($menu) && $menu == 'acerca'){echo 'class="active"'; } ?>>Acerca</a></li-->
 
             <li class="drop"><a href="<?= base_url('informacion'); ?>" <?php if (isset($menu) && $menu == 'info'){echo 'class="active"'; } ?>>Información</a>
                 <ul class="drop-down">
@@ -100,7 +100,7 @@
 
             </li>
             <li><a href="<?= base_url('nosotros'); ?>" <?php if (isset($menu) && $menu == 'nos'){echo 'class="active"'; } ?>>Nosotros</a></li>
-            <!--li><a href="<?= base_url('contacto'); ?>">Contacto</a></li-->
+            <li><a href="<?= base_url('contacto'); ?>">Contacto</a></li>
 
             </ul>
             </div><!--/.nav-collapse -->
