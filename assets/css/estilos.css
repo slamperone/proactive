@@ -93,9 +93,9 @@ label.no {
 	display: none;
 }
 
-.generic {
+/*.generic {
 	padding: 90px 30px;
-}
+}*/
 
 .title {
 	margin:40px 0;
@@ -1094,4 +1094,12 @@ margin: 20px auto;
 	.autonomia ul li{
 		margin: 20px 0;
 	}
+}
+
+.formTop{
+	margin-top: 140px;
+}
+
+.btn-formTop{
+	margin-top: 0!important;
 }

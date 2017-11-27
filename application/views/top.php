@@ -113,4 +113,5 @@
 
     </header>
     <!-- end Header -->
-
+<?php     $this->load->view('formtop');
+ ?>

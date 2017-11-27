@@ -156,7 +156,29 @@
     });
 
 
+var map = new google.maps.Map(document.getElementById('map'), mapOptions);
+  var styledMapOptions = {
+      name: "gray-style"
+  }
+  var jayzMapType = new google.maps.StyledMapType(
+      stylez, styledMapOptions);
+  map.mapTypes.set('graystyle', jayzMapType);
+  map.setMapTypeId('graystyle');
+  var marker = new google.maps.Marker({
+    map: map,
+    position: point,
+  });
 
+  google.maps.event.addListener(marker, 'click', function() {
+      infobox.open(map, this);
+      map.panTo(point);
+  });
+  map.panTo(point);
+}
+if (document.getElementById('map')) {
+  
+  google.maps.event.addDomListener(window, 'load', initialize);
+};
 
 
 });

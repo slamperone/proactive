@@ -6,7 +6,7 @@ class Contacto extends CI_Controller {
 	public function index()
 	{
 		$this->load->view('top');
-		$this->load->view('seguimos');
+		$this->load->view('contacto');
 		$this->load->view('bottom');
 	}
 }
