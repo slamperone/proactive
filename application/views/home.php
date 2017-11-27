@@ -62,7 +62,7 @@
             <div class="col-md-3 text-center item">
                <i class="icon-keyboard"></i>
                <h3 class="homeTit">Autonomía de gestión</h3>
-               <p>Procesamiento individual y constante de problemas y problemáticas. en esta va un logo de una computadora</p>
+               <p>Procesamiento individual y constante de problemas y problemáticas.</p>
             </div>
 
             <div class="col-md-3 text-center item">

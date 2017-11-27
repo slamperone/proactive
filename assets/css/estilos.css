@@ -701,14 +701,17 @@ form.suscribe .btn:hover {
 	background-image: url(../img/joaquin-gordillo.jpg);
 }
 
-.ch-img-3 {
-	background-image: url(../img/img-course-3.jpg);
+.pedro {
+	background-image: url(../img/pedro-garcia.jpg);
 }
 
-.ch-img-4{
-	background-image: url(../img/img-course-4.jpg);
+.oscar{
+	background-image: url(../img/oscar-rodriguez.jpg);
 }
 
+.alexis{
+	background-image: url(../img/alexis-urzua.jpg);
+}
 .ch-info {
 	position: absolute;
 	width: 100%;
